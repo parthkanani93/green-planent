@@ -9,7 +9,7 @@ class Footer_link extends Component {
         <Col lg={12}>
           <div className="text-center">
             <p className="text-muted mb-0">
-              {new Date().getFullYear()} © Green Planet. Develop by Themesdesign
+              {new Date().getFullYear()} © Green Planet. Develop by Green Planet
             </p>
           </div>
         </Col>

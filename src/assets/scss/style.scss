@@ -1,5 +1,5 @@
 /* Template Name: Thamza
-   Author: Themesdesign
+   Author: Green Planet
    Version: 1.0.0
    File Description: Main Css file of the template
 */
@@ -22,20 +22,17 @@
 
 *****************************************/
 
-@import "variables";
-@import "general";
-@import "helper";
-@import "components";
-@import "menu";
-@import "home";
-@import "services";
-@import "counter";
-@import "pricing";
-@import "testimonial";
-@import "team";
-@import "contact";
-@import "footer";
-@import "responsive";
-
-
-
+@import 'variables';
+@import 'general';
+@import 'helper';
+@import 'components';
+@import 'menu';
+@import 'home';
+@import 'services';
+@import 'counter';
+@import 'pricing';
+@import 'testimonial';
+@import 'team';
+@import 'contact';
+@import 'footer';
+@import 'responsive';
