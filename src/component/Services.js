@@ -40,7 +40,7 @@ export default class Services extends Component {
           end: 49,
           title: 'Employees',
           description:
-            'Aliquam egestas vehicula sapien cibus sit amet rutrum dolor molestie.',
+            'Sourcing Sustainable & Organic/Fair trade products from farm to Warehouse! ',
         },
         {
           id: '2',
@@ -49,7 +49,7 @@ export default class Services extends Component {
           end: 76,
           title: 'Projects',
           description:
-            'Pellentesque habitant morbi malesuada fames ac turpis egestas.',
+            'Transparent block chain process adaptation with firm chain of custody monitoring.',
         },
         {
           id: '3',
@@ -58,7 +58,32 @@ export default class Services extends Component {
           end: 99,
           title: 'CLIENTS',
           description:
-            'Suspendisse congue risus consequat sapien potitor risus tincidunt.',
+            'Quality assurance & Quality audits from Proto to Final Inspections. ',
+        },
+        {
+          id: '4',
+          extraclass: 'pt-3',
+          start: 25,
+          end: 99,
+          title: 'CLIENTS',
+          description:
+            'Supply chain all hand picked & international standards are ensured ',
+        },
+        {
+          id: '5',
+          extraclass: 'pt-3',
+          start: 25,
+          end: 99,
+          title: 'CLIENTS',
+          description: 'Certification and compliance monitoring & control.',
+        },
+        {
+          id: '6',
+          extraclass: 'pt-3',
+          start: 25,
+          end: 99,
+          title: 'CLIENTS',
+          description: 'Fast fashion collections & Developments',
         },
       ],
     }
@@ -133,23 +158,12 @@ export default class Services extends Component {
                       className={counteritem.id !== '1' ? 'mt-4 pt-3' : 'mt-4'}
                       key={key}
                     >
-                      <div className="media">
+                      <div className="media d-flex align-items-center">
                         <div className="count-box bg-soft-primary text-center">
-                          <h3 className="counter-count mb-1 text-primary">
-                            <CountUp
-                              className="counter-value"
-                              delay={2}
-                              start={counteritem.start}
-                              end={counteritem.end}
-                            />{' '}
-                            <span className="count-plus text-primary"> +</span>
-                          </h3>
-                          <p className="text-uppercase text-muted mb-0 f-14">
-                            {counteritem.title}{' '}
-                          </p>
+                          <i className="mdi mdi-arrow-right ml-1"></i>
                         </div>
                         <div className="media-body pl-4">
-                          <p className="text-muted mb-0 mt-3">
+                          <p className="text-muted mb-0 ">
                             {counteritem.description}
                           </p>
                         </div>

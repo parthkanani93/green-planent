@@ -57,17 +57,17 @@ class Section extends Component {
                         fermentum <br /> ligula quis tidunt vitae massa.
                       </p>
                       <div className="mt-4 pt-2">
-                        <Link to="#" className="btn btn-primary mr-3">
+                        <a className="btn btn-primary mr-3" href="#contact">
                           Contact Us
-                        </Link>
-                        <Link
+                        </a>
+                        {/* <Link
                           to="#"
                           className="video-play-icon text-white"
                           onClick={this.openModal}
                         >
                           <i className="mdi mdi-play-circle-outline text-white mr-2"></i>
                           Watch Intro Video
-                        </Link>
+                        </Link> */}
                       </div>
                     </div>
                   </Col>
